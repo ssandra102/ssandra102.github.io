@@ -1,0 +1,42 @@
+@import "../../data/styles.css";
+
+
+.read-article-container {
+	display: flex;
+	height: 100%;
+	margin: 0;
+	padding-top: 20px;
+}
+
+.read-article-wrapper {
+	width: 80%;
+	padding-top: 20px;
+}
+
+.read-article-date-container {
+	border-left: 2px solid var(--quaternary-color);
+	color: #000;
+	font-size: 16 px;
+	align-items: center;
+	height: 10px;
+}
+
+.read-article-date {
+	font-family: var(--primary-font);
+	padding-left: 15px;
+}
+
+.read-article-title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100% !important;
+	
+}
+
+.read-article-body {
+	padding-bottom: 50px;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: system-ui;
+	color: #000;
+}

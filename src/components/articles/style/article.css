@@ -1,0 +1,47 @@
+@import "../../../data/styles.css";
+
+.article {
+	display: flex;
+}
+
+.article a {
+	text-decoration: none;
+}
+
+.article-left-side {
+	min-width: 10%;
+	max-width: 10%;
+}
+
+.article-right-side {
+	flex-basis: 80%;
+	min-width: 700px;
+	mix-blend-mode: normal;
+	padding: 5px;
+}
+
+.article-date {
+	padding-top: 10px;
+	font-size: 15px;
+	color: #000000;
+	
+}
+
+.article-title {
+	color: #000000;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+	.article-left-side {
+		min-width: 10%;
+		max-width: 10%;
+	}
+
+	.article-right-side {
+		flex-basis: 90%;
+		min-width: 85%;
+		max-width: 85%;
+	}
+}
