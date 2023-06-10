@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";

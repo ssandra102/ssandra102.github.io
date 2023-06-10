@@ -2,11 +2,11 @@ const SKILLS = {
 
     skill1: {
         title: "Product Engineering and Management",
-        skills: ""
+        skills: "Machine Learning System Design"
     },
     skill2: {
         title: "User Interfacing",
-        skills:"Android , Web Apps"
+        skills:"Android Mobile apps, Web Apps"
     },
     skill3: {
         title: "Hardware Interfacing using ",
@@ -22,7 +22,7 @@ const SKILLS = {
     },
     skill6: {
         title: "Tools ",
-        tools: "VSCode, Git/GItHub, RStudio, Jupyter Notebook"
+        tools: "VSCode, Git/GItHub, RStudio, Jupyter Notebook, Android Studio"
     }
 
 };
