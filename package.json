@@ -1,15 +1,14 @@
 {
-	"name": "reactfolio",
-	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "Personal portfolio",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Sandra Skaria",
+		"email": "sandra.skaria86@gmail.com"
 	},
 	"license": "MIT",
 	"private": true,
-	"homepage": "https://ssandra102.github.io/reactfolio-master/",
+	"homepage": "https://ssandra102.github.io/",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.4.0",
 		"@fortawesome/free-brands-svg-icons": "^6.4.0",
