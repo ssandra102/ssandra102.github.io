@@ -17,65 +17,75 @@ const INFO = {
 	homepage: {
 		title: "Machine Learning enthusiast.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			" Hey there !! Read my articles and view my projects :) ",
 	},
 
 	about: {
 		title: "I'm Sandra, I live in Kochi.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		description1:
+			" As an aspiring individual entering the professional world, I possess a profound interest in machine learning, MLOps, data analysis, and robotics using ROS. Equipped with a strong educational background and a keen interest in problem-solving, I am ready to contribute my theoretical knowledge and embrace hands-on experiences to drive innovation and make a positive impact. With a solid educational foundation and a dedication to continuous growth, I am determined to contribute my skills to drive innovation and make a meaningful impact in the dynamic world of AI and robotics.",
+		description2:
+			"I've worked on a variety of personal projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind.",
 	},
 
 	articles: {
 		title: "Articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming.",
+			" ",
 	},
 
 	projects: [
 		{
+			title: "FinTrack - Part 1",
+			description: "An android mobile application, to capture images, display analytics, and upload to Firebase, ",
+			logo: "",
+			linkText: "View Project",
+			link:"https://github.com/ssandra102/FinTrack"
+		},
+		{
+			title: "FinTrack - Part 2",
+			description: "A machine learning API to perform image pre processing, OCR, item categoration, and cloud storage",
+			logo: "",
+			linkText: "View Project",
+			link:"https://github.com/ssandra102/Machine-Learning-API"
+		},
+		// {
+		// 	title: "statCLI",
+		// 	description: "CLick command line tool to perform statistics on datasets",
+		// 	logo: "",
+		// 	linkText: "View Project",
+		// 	link:"https://github.com/ssandra102/statcli"
+		// },
+		{
 			title: "CoDet",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			description:"A colour detection and composition streamlit web application",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/ssandra102/CoDet",
 		},
 
 		{
-			title: "Real-Time Dashboard using Mern ",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "Anomalous Ball bearing Detection",
+			description:"Anomalous ball bearing machine learning project.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Anomalous Ball bearing Detection",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/ssandra102/anomaly_detection",
 		},
 
 		{
 			title: "Desktop Cleaner Automation Script",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			description:"A python automation project to clean desktop.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/ssandra102/scripts",
 		},
 
 		{
 			title: "Email-Bot",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			description:"An email-bot to summarise emails in your inbox",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/aarsha01/breadcrumbs",
 		},
 	],
 };

@@ -19,7 +19,7 @@ const About = () => {
 			<div className="page-content">
 				<NavBar active="about" />
 				<div className="content-wrapper">
-					
+
 
 					<div className="about-container">
 						<div className="about-main">
@@ -27,9 +27,11 @@ const About = () => {
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
-
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{INFO.about.description1}
+								</div>
+								<div className="subtitle about-subtitle">
+									{INFO.about.description2}
 								</div>
 							</div>
 

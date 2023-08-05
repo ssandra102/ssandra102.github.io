@@ -12,6 +12,8 @@ const NavBar = (props) => {
 				<nav className="navbar">
 					<div className="nav-background">
 						<ul className="nav-list">
+							<li className="nav-item1"> Sandra Skaria </li>
+
 							<li
 								className={
 									active === "home"
@@ -19,6 +21,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
+
 								<Link to="/">Home</Link>
 							</li>
 							<li
@@ -55,7 +58,6 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/contact">Contact</Link>
 							</li>
 						</ul>
 					</div>

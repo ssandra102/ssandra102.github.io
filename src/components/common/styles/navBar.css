@@ -1,9 +1,9 @@
 @import "../../../data/styles.css";
-
+ 
 .nav-container {
 	margin: 0;
 	display: flex;
-	justify-content: right;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -11,13 +11,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: fixed;
+	padding-top: 20px;
 	top: 3vh;
 	z-index: 999;
 }
 
 .nav-background {
-	width: 550px;
+	width: 1000px;
 	height: 40px;
 	padding-left: 0%;
 	padding-right: 0%;
@@ -36,13 +36,20 @@
 	margin-right: 20px;
 	margin-top: 11px;
 }
-
-.nav-item {
-	font-weight: bold;
-	font-size: 80%;
+.nav-item1 {
+	
+	font-size: 25px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+.nav-item {
+	font-weight: bold;
+	font-size: 90%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
 
 .nav-item.active a {
 	color: var(--link-color) !important;

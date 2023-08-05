@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGithub,faInstagram,faMedium,} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faMedium, } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -85,13 +85,13 @@ const Homepage = () => {
 
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
-									{/* <div className="homepage-image-wrapper">
-										<img
+									<div className="homepage-image-wrapper">
+										{/* <img
 											src="homepage.jpg"
 											alt="about"
 											className="homepage-image"
-										/>
-									</div> */}
+										/> */}
+									</div>
 								</div>
 							</div>
 						</div>
@@ -117,7 +117,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							
+
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
@@ -144,7 +144,7 @@ const Homepage = () => {
 							<AllProjects />
 						</div> */}
 
-						<div className="homepage-after-title">
+						{/* <div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -164,8 +164,8 @@ const Homepage = () => {
 
 							{/* <div className="homepage-works">
 								<Works />
-							</div> */}
-						</div>
+							</div> 
+						</div> */}
 
 						<div className="page-footer">
 							<Footer />
