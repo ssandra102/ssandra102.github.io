@@ -363,7 +363,7 @@ function article_5() {
 				<div className="article-content">
 					<div className="paragraph">
 						<div>
-							<h4>1. Build a system to predict the language a text is written in.</h4>
+							<h5>1. Build a system to predict the language a text is written in.</h5>
 							<div>
 								Goal: To determine the specific or closely related language of the input text.<br></br>
 								User experience: A website or a mobile app. Mobile apps can have camera functionality for real time language identification.<br></br>
@@ -373,6 +373,15 @@ function article_5() {
 								Challenges: similar languages<br></br>
 								Model: Text Classification and prediction model<br></br>
 								Scaling: Add more languages<br></br>
+							</div>
+						</div>
+						<div>
+							<h5>2. When you enter a search query on Google, you're shown a list of related searches. How would you generate a list of related searches for each query? </h5>
+							<div>
+								Goal: Find related relevant searches, given a query<br></br>
+								Data availability and collection: A dataset that describes user search queries<br></br>
+								Model:  Nearest Neighbor to find searches close to each other.<br></br>
+								
 							</div>
 						</div>
 
