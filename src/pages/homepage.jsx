@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram, faMedium, } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faLinkedinIn, faMedium, } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -117,7 +117,16 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedinIn}
+									className="homepage-social-icon"
+								/>
+							</a>
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"

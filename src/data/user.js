@@ -9,7 +9,7 @@ const INFO = {
 	socials: {
 		medium: "https://medium.com/",
 		github: "https://github.com/ssandra102",
-		linkedin: "https://linkedin.com/sandraskaria",
+		linkedin: "https://www.linkedin.com/in/sandraskaria/",
 		instagram: "https://instagram.com/z.sndra",
 		facebook: "https://facebook.com/",
 	},
@@ -35,6 +35,13 @@ const INFO = {
 	},
 
 	projects: [
+		{
+			title: "End to End Data Science Workflow",
+			description: "A data science workflow to manage various stages of a machine learning pipeline, implemented as a flask web app that predicts price of car ",
+			logo: "",
+			linkText: "View Project",
+			link:"https://github.com/ssandra102/car_sales_data_science_workflow"
+		},
 		{
 			title: "FinTrack - Part 1",
 			description: "An android mobile application, to capture images, display analytics, and upload to Firebase, ",
