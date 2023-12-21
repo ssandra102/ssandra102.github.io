@@ -36,17 +36,25 @@
 	margin-right: 20px;
 	margin-top: 11px;
 }
+
+.nav-item1,
+.nav-item {
+    display: flex;
+}
+
 .nav-item1 {
 	
 	font-size: 25px;
 	padding-left: 10px;
 	padding-right: 10px;
+	align-items: left;
 }
 .nav-item {
 	font-weight: bold;
 	font-size: 90%;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-left: auto;
 }
 
 

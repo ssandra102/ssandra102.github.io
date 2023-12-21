@@ -11,8 +11,9 @@ const NavBar = (props) => {
 			<div className="nav-container">
 				<nav className="navbar">
 					<div className="nav-background">
+						
 						<ul className="nav-list">
-							<li className="nav-item1"> Sandra Skaria </li>
+							<li className="nav-item1"> sandra's blog </li>
 
 							<li
 								className={
@@ -49,7 +50,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/articles">Articles</Link>
+								<Link to="/articles">Blogs</Link>
 							</li>
 							<li
 								className={

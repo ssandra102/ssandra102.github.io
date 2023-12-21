@@ -23,13 +23,13 @@ const INFO = {
 	about: {
 		title: "I'm Sandra, I live in Kochi.",
 		description1:
-			" As an aspiring individual entering the professional world, I possess a profound interest in machine learning, MLOps, data analysis, and robotics using ROS. Equipped with a strong educational background and a keen interest in problem-solving, I am ready to contribute my theoretical knowledge and embrace hands-on experiences to drive innovation and make a positive impact. With a solid educational foundation and a dedication to continuous growth, I am determined to contribute my skills to drive innovation and make a meaningful impact in the dynamic world of AI and robotics.",
+			" As an aspiring individual entering the professional world, I possess a profound interest in machine learning, MLOps, data analysis, and robotics using ROS. ",
 		description2:
-			"I've worked on a variety of personal projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind.",
+			"If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind.",
 	},
 
 	articles: {
-		title: "Articles",
+		title: "Blogs",
 		description:
 			" ",
 	},
