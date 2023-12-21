@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.79d5b4ab.css",
-    "main.js": "/static/js/main.fdc07f6d.js",
+    "main.css": "/static/css/main.5a8bba7c.css",
+    "main.js": "/static/js/main.e2e6116d.js",
+    "static/media/pac_man.jpg": "/static/media/pac_man.971dbfaaf2da764e65b7.jpg",
+    "static/media/subFieldsOfAI.webp": "/static/media/subFieldsOfAI.785ed754e91979074201.webp",
+    "static/media/AutoEncoder.webp": "/static/media/AutoEncoder.6958e43899ec6a46c85d.webp",
     "index.html": "/index.html",
-    "main.79d5b4ab.css.map": "/static/css/main.79d5b4ab.css.map",
-    "main.fdc07f6d.js.map": "/static/js/main.fdc07f6d.js.map"
+    "main.5a8bba7c.css.map": "/static/css/main.5a8bba7c.css.map",
+    "main.e2e6116d.js.map": "/static/js/main.e2e6116d.js.map"
   },
   "entrypoints": [
-    "static/css/main.79d5b4ab.css",
-    "static/js/main.fdc07f6d.js"
+    "static/css/main.5a8bba7c.css",
+    "static/js/main.e2e6116d.js"
   ]
 }
