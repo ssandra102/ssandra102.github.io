@@ -5,7 +5,8 @@ title: Influence of AI in Gaming Industry
 
  
 “Artificial Intelligence (AI) is the part of computer science concerned with designing intelligent computer systems, that is, systems that exhibit characteristics we associate with intelligence in human behavior — understanding language, learning, reasoning, solving problems, and so on.” (Barr & Feigenbaum, 1981)
-According to Wikipedia, in video games, artificial intelligence (AI) is used to generate responsive, adaptive or intelligent behaviors primarily in non-player characters (NPCs) similar to human-like intelligence.
+
+>According to Wikipedia, in video games, artificial intelligence (AI) is used to generate responsive, adaptive or intelligent behaviors primarily in non-player characters (NPCs) similar to human-like intelligence.
 
 Let’s understand what this means…
 
@@ -14,20 +15,21 @@ Artificial Intelligence, back during it’s inception( it’s still in growing s
 <h3>Early AI</h3>
 There are two approaches to AI, based on how you define Intelligence — symbolic reasoning and artificial neural network. Symbolic reasoning is a top-down approach, wherein you follow the path a human took to solve a particular problem; recreate it using algorithms and feed it to the machine.
 Artificial neural network(ANN) is the bottom-up approach, we feed the machine with examples with which it learns to solve a problem.
+
 An example of symbolic reasoning is binary search. It has a predefined sequence of steps which when implemented gives the output. And that of ANN is a baby learning to walk with multiple repetitions and failures.
 
 ----
 Fast forward to the 2000s , AI is now broken into sub-fields :
 
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
+![an image alt text]({{ site.baseurl }}/images/subFieldsOfAi.webp "an image title")
         
 Early games that had enemies, incorporated the enemy’s movements through a set of pre-defined sequence of actions. Phoenix(1980) is credited to be the first of its kind. The late 1970s to mid-1980s was the ‘golden age’ of arcade games. ‘Space Invaders’ (1978) and ‘Pac-Man’ (1980) were some of the popular games of this period. This popularity can mostly be blamed on the cheap computational and technological costs.
 
 Space invaders used early AI in the form of stored patterns. These simulate random movements of aliens that were pre-programmed into the game. The randomized pattern of movement was bought in by the inclusion of microprocessors.
+
 Pac-Man (1980) also hit the arcades bringing AI to a complex maze based game. Those Ghosts exhibit some exciting characters independent of each other. This innovative AI programming allowed these colorful creatures to exhibit different personality traits. This deceived players into thinking they’re playing against 4 individual entities.
 
-
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "Photo by shark ovski on Unsplash")
+![an image alt text]({{ site.baseurl }}/images/pac_man.jpg "Photo by shark ovski on Unsplash")
 
 ----
 <h3>Recent growth</h3>

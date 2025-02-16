@@ -11,12 +11,7 @@ Simply put, autoencoders are employed to lessen data noise. Autoencoders enable 
 
 The ‘_bottleneck_’ is the neural network’s most crucial and smallest component. Only the most important information can pass through the bottleneck, which limits the flow of data from the encoder to the decoder. We may say that the bottleneck captures all of the information that an image possesses.
   
-<div className="article-image-container">
-    <figure className="image-container">
-        <img src={autoencoder} alt="Autoencoder" className="image" />
-        <figcaption className="caption">An example of an Autoencoder with a three-node bottleneck (created in Canva)</figcaption>
-    </figure>
-</div>
+![An example of an Autoencoder with a three-node bottleneck]({{ site.baseurl }}/images/AutoEncoder.webp "An example of an Autoencoder with a three-node bottleneck")
  
 A neural network that has an input and output of the same number of nodes, and a bottleneck (hidden layer) of 3 nodes. The input and output nodes in the neural network can be the same or varied in number. In general, they are made to be equal such that the features of the input and output data are the same. The input is “encoded” using the bottleneck in such a way that it may be recovered.
 
@@ -26,18 +21,16 @@ Let’s say we have input data of 100 features (dimensions), we wish to pass it 
  
 The following is the code snippet taken from an article (For more information and a detailed explanation of the code refer to the article by Analytics Vidhya). It takes an input of 100 dimensions, encodes it into 20 dimensions, and reconstructs the input.
 
-```R
-self.encoder = Sequential(
-                [
-                    Dense(100, activation="relu"),
-                    Dense(20, activation="relu")
-                ]
-            )
-
-self.decoder = Sequential(
-                [
-                    Dense(100, activation="relu"),
-                    Dense(output_units, activation="sigmoid")
-                ]
-            )
+`self.encoder = Sequential(`
+                `[`
+                    `Dense(100, activation="relu"),`
+                    `Dense(20, activation="relu")`
+                `]`
+            `)`
+`self.decoder = Sequential(`
+                `[`
+                    `Dense(100, activation="relu"),`
+                    `Dense(output_units, activation="sigmoid")`
+                `]`
+            `)`
 ```

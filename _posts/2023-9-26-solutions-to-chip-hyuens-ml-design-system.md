@@ -8,11 +8,11 @@ title: Solutions to ML System Design Questions by Chip Hyuen
     - Goal: To determine the specific or closely related language of the input text.
     - User experience: A website or a mobile app. Mobile apps can have camera functionality for real time language identification.
     - Performance constraint: it doesn't need to be perfect to provide value to users.
-    Data availability and collection: A dataset with 2 columns - one for text and other corresponding language
-    Data Preprocessing: Clean the text column -  remove stopwords, vectorising to convert text to numericals
-    Challenges: similar languages
-    Model: Text Classification and prediction model
-    Scaling: Add more languages
+    - Data availability and collection: A dataset with 2 columns - one for text and other corresponding language
+    - Data Preprocessing: Clean the text column -  remove stopwords, vectorising to convert text to numericals
+    - Challenges: similar languages
+    - Model: Text Classification and prediction model
+    - Scaling: Add more languages
 
 2. When you enter a search query on Google, you're shown a list of related searches. How would you generate a list of related searches for each query?
     
@@ -21,6 +21,7 @@ title: Solutions to ML System Design Questions by Chip Hyuen
     - Model:  Nearest Neighbor to find searches close to each other.
 
 
+(to be solved !)
 Duolingo is a platform for language learning. When a student is learning a new language, Duolingo wants to recommend increasingly difficult stories to read.
 How would you measure the difficulty level of a story?
 Given a story, how would you edit it to make it easier or more difficult?
