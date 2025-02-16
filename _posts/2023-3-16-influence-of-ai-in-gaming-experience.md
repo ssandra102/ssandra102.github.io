@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bayesian Networks!
+title: Influence of AI in Gaming Industry
 ---
 
  
@@ -19,7 +19,7 @@ An example of symbolic reasoning is binary search. It has a predefined sequence 
 
 Fast forward to the 2000s , AI is now broken into sub-fields :
 
-![_config.yml](/images/404.jpg)
+![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
         
 Early games that had enemies, incorporated the enemy’s movements through a set of pre-defined sequence of actions. Phoenix(1980) is credited to be the first of its kind. The late 1970s to mid-1980s was the ‘golden age’ of arcade games. ‘Space Invaders’ (1978) and ‘Pac-Man’ (1980) were some of the popular games of this period. This popularity can mostly be blamed on the cheap computational and technological costs.
 
@@ -27,8 +27,8 @@ Space invaders used early AI in the form of stored patterns. These simulate rand
 Pac-Man (1980) also hit the arcades bringing AI to a complex maze based game. Those Ghosts exhibit some exciting characters independent of each other. This innovative AI programming allowed these colorful creatures to exhibit different personality traits. This deceived players into thinking they’re playing against 4 individual entities.
 
 
-![_config.yml](/images/404.jpg)
-Photo by shark ovski on Unsplash
+![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "Photo by shark ovski on Unsplash")
+
 
 
 <h3>Recent growth</h3>
