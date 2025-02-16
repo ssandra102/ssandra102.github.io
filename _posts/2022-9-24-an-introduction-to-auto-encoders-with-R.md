@@ -21,16 +21,17 @@ Let’s say we have input data of 100 features (dimensions), we wish to pass it 
  
 The following is the code snippet taken from an article (For more information and a detailed explanation of the code refer to the article by Analytics Vidhya). It takes an input of 100 dimensions, encodes it into 20 dimensions, and reconstructs the input.
 
-`self.encoder = Sequential(`
-                `[`
-                    `Dense(100, activation="relu"),`
-                    `Dense(20, activation="relu")`
-                `]`
-            `)`
-`self.decoder = Sequential(`
-                `[`
-                    `Dense(100, activation="relu"),`
-                    `Dense(output_units, activation="sigmoid")`
-                `]`
-            `)`
-```
+`self.encoder = Sequential(`  
+                `[`  
+                    `Dense(100, activation="relu"),`  
+                    `Dense(20, activation="relu")`  
+                `]`  
+            `)`  
+`self.decoder = Sequential(`  
+                `[`  
+                    `Dense(100, activation="relu"),`  
+                    `Dense(output_units, activation="sigmoid")`  
+                `]`  
+            `)`  
+
+
