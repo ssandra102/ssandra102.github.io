@@ -29,8 +29,7 @@ title: An introduction to auto encoders with R
 <p>
     The following is the code snippet taken from an article (For more information and a detailed explanation of the code refer to the article by Analytics Vidhya). It takes an input of 100 dimensions, encodes it into 20 dimensions, and reconstructs the input.
 
-    `
-    self.encoder = Sequential(
+    `self.encoder = Sequential(
                     [
                         Dense(100, activation="relu"),
                         Dense(20, activation="relu")
