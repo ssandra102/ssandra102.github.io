@@ -6,9 +6,9 @@ title: Bayesian Networks!
 <div>
         “Artificial Intelligence (AI) is the part of computer science concerned with designing intelligent computer systems, that is, systems that exhibit characteristics we associate with intelligence in human behavior — understanding language, learning, reasoning, solving problems, and so on.” (Barr & Feigenbaum, 1981)
         According to Wikipedia, in video games, artificial intelligence (AI) is used to generate responsive, adaptive or intelligent behaviors primarily in non-player characters (NPCs) similar to human-like intelligence.
-        <div><br></br>Let’s understand what this means…<br></br></div>
-    </div>
-    <div>
+        <br>Let’s understand what this means…</br>
+</div>
+<div>
         Artificial Intelligence, back during it’s inception( it’s still in growing stage, but you get the idea) was defined as any machine that could pass the Turing Test. That is, if a interrogator could not distinguish a machine from a human, the machine passed the Turing test.
     </div>
     <div>
