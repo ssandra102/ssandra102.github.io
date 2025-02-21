@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Graduated with Bachelor's in Computer Science with Artificial Intelligence. Interested in Machine Learning in Natural Language Processing domain.
 
-### More Information
+<!-- ### More Information -->
 
-A place to include any other types of information that you'd like to include about yourself.
+<!-- A place to include any other types of information that you'd like to include about yourself. -->
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[sandra10skaria@gmail.com](mailto:sandra10skaria@gmail.com)
