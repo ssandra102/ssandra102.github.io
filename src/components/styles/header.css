@@ -1,0 +1,21 @@
+/* Header.css */
+nav {
+    /* background-color: #ffffff; */
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ddd; 
+}
+
+nav a {
+    color: #888787; /* Dark grey text for readability */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #537497; /* Subtle blue color on hover */
+}

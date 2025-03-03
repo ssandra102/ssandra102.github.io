@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dorsa&display=swap');
+
+.content-container {
+    display: flex;
+    align-items: center;
+    /* Align items properly */
+    gap: 0px;
+    /* Remove unnecessary space */
+    width: 100%;
+    height: 100vh;
+    /* Ensure full height */
+    margin-top: 0;
+}
+
+.about-image-arrow {
+    flex: 2;
+    /* Image covers two-thirds */
+    background-size: cover;
+    background-position: right;
+    /* Align image to right */
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#showname {
+    margin: 80px;
+    flex: 1;
+    /* Takes one-third of space */
+    text-align: right;
+    padding-left: 10px;
+}
+
+.about-container {
+    margin: 80px;
+    flex: 1;
+    /* Takes one-third of space */
+    text-align: left;
+    padding-left: 10px;
+}
+
+#project {
+    /* margin-top: 500px; */
+    /* border: 6px double green; */
+    font-size: 3rem;
+    /* background-color: lightgreen; */
+    font-weight: 800;
+    text-align: center;
+    padding: 80px;
+}
+
+
+#blog {
+    /* margin-top: 1000px; */
+    /* border: 6px double green; */
+    font-size: 3rem;
+    /* background-color: lightgreen; */
+    font-weight: 800;
+    text-align: center;
+    padding: 80px;
+}
+
+.card-details-parent {
+    max-width: 1500px;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* Styling the box around the "focus" text */
+.focus-box {
+    display: inline-block;
+    position: relative;
+    padding: 6px 12px;
+}
+
+.focus-text {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-family: "Dorsa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.focus-text.yellow {
+    color: #D56062;
+}
+
+.focus-text.green {
+    color: #387780;
+}
+
+.focus-text.blue {
+    color: #ffd670;
+}
+
+.focus-text.red {
+    color: #83c5be;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    /* margin-bottom: 8px; */
+    font-size: 1rem;
+}

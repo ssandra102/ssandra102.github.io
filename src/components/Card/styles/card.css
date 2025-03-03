@@ -1,0 +1,33 @@
+.card {
+    color: #ffffff; 
+    padding: 20px;
+    border: 1px solid #440029;
+    border-radius: 10px;
+    max-width: fit-content;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ensures left alignment */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:hover {
+    filter: brightness(40%);
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to left */
+    width: 100%;
+}
+
+.card-details h4,
+.card-details p,
+.card-details a {
+    display: block !important; /* Force block display */
+    margin-bottom: 8px; 
+}
