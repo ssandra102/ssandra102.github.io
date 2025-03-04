@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -44,6 +44,6 @@
     "vite": "^6.2.0"
   },
   "properties": {
-    "homepage": "http://ssandra102.github.io/ssandra102.github.io"
+    "homepage": "https://ssandra102.github.io"
   }
 }
