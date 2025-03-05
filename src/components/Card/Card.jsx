@@ -12,7 +12,7 @@ export default function Card(props) {
                 <div className="card-details">
                     <h4> {projectsData[props.id - 1].name} </h4> 
                     <p> Stack : {projectsData[props.id - 1].stack} </p> 
-                    <a href={projectsData[props.id - 1].link}> Code </a>
+                    <a href={projectsData[props.id - 1].link} target="_blank"> Code </a>
                 </div>
             </div>
         </>

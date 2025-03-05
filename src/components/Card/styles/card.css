@@ -1,10 +1,12 @@
 .card {
-    color: #ffffff; 
+    color: #000000; 
     padding: 20px;
     border: 1px solid #440029;
     border-radius: 10px;
     max-width: fit-content;
-    width: 300px;
+    width: 200px;
+    /* max-height: fit-content; */
+    height: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -13,6 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 .card:hover {
     filter: brightness(40%);
@@ -30,4 +33,15 @@
 .card-details a {
     display: block !important; /* Force block display */
     margin-bottom: 8px; 
+}
+
+.card-details a {
+    align-self: flex-end; /* Align to right */
+    color: #440029;
+    font-weight: 300px;
+}
+
+.card-details p {
+    font-size: 18px;
+    font-weight: 300px;
 }

@@ -47,7 +47,7 @@
     /* background-color: lightgreen; */
     font-weight: 800;
     text-align: center;
-    padding: 80px;
+    /* padding: 80px; */
 }
 
 
@@ -58,18 +58,18 @@
     /* background-color: lightgreen; */
     font-weight: 800;
     text-align: center;
-    padding: 80px;
+    padding: 40px;
 }
 
 .card-details-parent {
-    max-width: 1500px;
+    max-width: 1200px;
     display: flex;
     padding-top: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .content {

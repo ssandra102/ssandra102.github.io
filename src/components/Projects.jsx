@@ -16,7 +16,7 @@ export default function Projects() {
             <section>
                 <h1 id="projects">Projects</h1>
                 <div className="p-10 text-white">
-                    <h3 className="header-style"> some of my Course Projects + hobby projects</h3>
+                    <h4 className="header-style"> (click on code to view Github repo)</h4>
 
                 </div>
             </section>

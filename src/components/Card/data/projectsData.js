@@ -13,7 +13,7 @@ const projectsData = [
         author: "Sandra Skaria",
         stack: "Gen AI, RAG",
         link: "https://github.com/ssandra102/gen_ai",
-        imgsrc: img4
+        imgsrc: img5
     },
     {
         name: "BCI",
@@ -21,7 +21,7 @@ const projectsData = [
         author: "Sandra Skaria",
         stack: "Python, Deep Learning, Neural Networks",
         link: "https://github.com/ssandra102/EEG-Classification",
-        imgsrc: img4
+        imgsrc: img6
     },
     {
         name: "FinTrack",
@@ -53,7 +53,7 @@ const projectsData = [
         author: "Sandra Skaria",
         stack:"ReactJs, Tailwind CSS, MongoDB",
         link: "https://github.com/ssandra102/",
-        imgsrc: img1
+        imgsrc: img5
     },
     {
         name: "Desktop Cleaner - Script",
@@ -61,7 +61,7 @@ const projectsData = [
         author: "Sandra Skaria",
         link: "https://github.com/ssandra102/scripts",
         stack:"Python scripting",
-        imgsrc: img5
+        imgsrc: img6
     },
     
 ];

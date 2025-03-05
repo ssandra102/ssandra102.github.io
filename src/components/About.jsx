@@ -8,8 +8,8 @@ export default function About() {
                 I am a
                 <span className="focus-text blue"> machine learning </span>
                 developer and
-                <span className="focus-text red"> frontend engineer </span>
-                with a strong foundation in data science, statistics, and web development.
+                <span className="focus-text red"> frontend </span>
+                engineer with a strong foundation in data science, statistics, and web development.
             </section>
 
             <section>
