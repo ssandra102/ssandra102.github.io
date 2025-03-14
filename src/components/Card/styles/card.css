@@ -47,25 +47,6 @@
     max-height: fit-content;
 }
 
-/* .card-details h4, */
-.card-details p,
-.card-details a {
-    /* display: block !important; */
-    /* Force block display */
-    /* margin-bottom: 20px;  */
-}
-
-/* .card-details a {
-    color: #fbfbfb;
-    font-weight: 30px;
-}
-
-.card-details p {
-    font-size: 18px;
-    font-weight: 300px;
-} */
-
-
 .tablet-about-container>card-homepage {
     /* border: 1px solid #440029; */
     border-radius: 15px;

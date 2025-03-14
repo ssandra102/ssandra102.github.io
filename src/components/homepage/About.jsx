@@ -1,5 +1,7 @@
 
 import '../styles/Content.css'
+import {Link} from 'react-router-dom';
+
 
 export default function About() {
     return (
@@ -19,6 +21,7 @@ export default function About() {
                 <p style={{color:"#cacac8",fontSize:"20px"}}>I love building intelligent systems that enhance user experience and solve complex problems. </p>
                 <p>Let's innovate!</p>
 
+                <Link to="/ml-dev" className="view-link"><p>View my projects</p></Link>
             </section >
         </>
     )

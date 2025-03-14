@@ -25,12 +25,12 @@ export default function Content({ route }) {
 
     return (
         <>
-            <Header route="homepage" />
+            {/* <Header route="homepage" /> */}
             
             {isBigScreen &&
                 <>
-                    <div className="content-container">
-                        <div className="about-container" id="about-container">
+                    <div className="main-content-container">
+                        <div className="main-about-container" id="main-about-container">
                             <About />
                             <Handles />
                         </div>
@@ -41,18 +41,18 @@ export default function Content({ route }) {
             {isTabletOrMobile &&
                 <div className="tablet-about-container">
                     <About />
-                    <div className="card-carousel">
+                    {/* <div className="card-carousel">
                         <Carousel />
-                    </div>
+                    </div> */}
                 </div>
             }
 
             {isSmallScreen &&
                 <div className="mini-about-container">
                     <About />
-                    <div className="card-carousel">
+                    {/* <div className="card-carousel">
                         <Carousel />
-                    </div>
+                    </div> */}
                 </div>
             }
 
