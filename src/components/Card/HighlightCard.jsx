@@ -5,26 +5,18 @@ import { Link } from "react-router-dom";
 
 
 const HighlightCard = (props) => {
+    
     const id = props.id;
     const page = props.page;
 
     return (
-        <div className="card">
-            {/* Title */}
-            <h2 className="card-title">
+        <div className="card" >
+            <h2 className="card-title" style={{color:"#85B09A"}}>
                 {projectsData[id - 1].name}
             </h2>
-
-            {/* Images */}
-            {/* <div className="image-container">
-        <img src="/image1.png" alt="Molecule 1" className="card-image" />
-      </div> */}
-
-            {/* Highlights */}
             <div className="highlights">
-                <h3>Highlights</h3>
-                <ul>
-                    
+                <h3 style={{color:"#72A0C1"}}>Highlights</h3>
+                <ul style={{color:"#cacac8"}}>
                     {projectsData[id - 1].description.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
@@ -35,10 +27,6 @@ const HighlightCard = (props) => {
             <p className="tags">
                 <strong style={{ paddingLeft: "5px" }}> Tags:</strong> {projectsData[id - 1].stack}
             </p>
-
-
-
-
         </div>
     );
 };

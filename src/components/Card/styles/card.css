@@ -1,25 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
 
-.card {
-    /* background-color: #fbfbfb; */
-    /* top: 0; */
-    position: relative;
-    width: 250px;
-    height: 350px;
-    height: fit-content;
-    text-align: top;
-    display: flex;
-    flex-wrap: wrap;
-    /* Allows wrapping into new rows */
-    justify-content: flex;
-    /* Center align items */
-    /* padding: 20px; */
-}
-
 .card-text {
     color: #000000;
     align-self: start;
-    /* padding-left: 3px; */
     padding-bottom: 0%;
     padding-top: 0%;
     font-size: 1.3rem;
@@ -38,7 +21,7 @@
 }
 
 .card:hover {
-    filter: brightness(40%);
+    filter: brightness(90%);
 }
 
 .card-details {
@@ -62,12 +45,8 @@
 }
 
 .card-image {
-
     width: 350px;
     height: 250px;
-    /* border-radius: 1px; ; */
-    /* object-fit: contain; */
-    /* overflow: hidden; Ensures the whole image is visible without cropping */
 }
 
 .mini-about-container>card-homepage {
@@ -96,7 +75,6 @@
 
 @media (max-width: 600px) {
     .card-container {
-        
         flex-direction: column;
     }
 }

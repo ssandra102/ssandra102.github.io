@@ -17,33 +17,26 @@ export default function Content() {
     const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
     const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
+    const cardIds = [1, 2, 3, 4, 5, 6, 7];
+
     return (
         <>
             {/* <Header route="ml-dev" /> */}
 
-            <span className="vertical-text">HEY THERE!!</span>
-
             <div className="content-container">
-                <div id="showname" className="bg-gray-900 text-white top-left" >
+                <div id="showname" >
                     <Homepage />
                 </div>
 
                 {isBigScreen &&
                     <>
-                        <div className="about-container" id="about-container">
-
-
-                            {/* <Projects cardIds={[1, 2, 3, 4, 5, 6]} /> */}
-                            <About />
-                        </div>
+                        
                         <div className='highlight-cards'>
-                            <HighlightCard id={1} />
-                            <HighlightCard id={2} />
-                            <HighlightCard id={3} />
-                            <HighlightCard id={4} />
-                            <HighlightCard id={5} />
-                            <HighlightCard id={6} />
-                            <HighlightCard id={7} />
+                            {
+                                cardIds.map(id => (
+                                    <HighlightCard id={id} />
+                                ))
+                            }
 
                         </div>
                     </>
@@ -51,17 +44,13 @@ export default function Content() {
             </div>
 
             {!isBigScreen &&
-                <div className="mini-about-container">
+                <div className="">
 
-                    {/* <About />
-                    <Projects cardIds={[1, 2, 3, 4, 5, 6]} /> */}
-                    <HighlightCard id={1} />
-                    <HighlightCard id={2} />
-                    <HighlightCard id={3} />
-                    <HighlightCard id={4} />
-                    <HighlightCard id={5} />
-                    <HighlightCard id={6} />
-                    <HighlightCard id={7} />
+                    {
+                        cardIds.map(id => (
+                            <HighlightCard id={id} />
+                        ))
+                    }
 
                 </div>
             }

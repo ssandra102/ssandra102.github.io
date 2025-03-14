@@ -21,7 +21,9 @@ export default function About() {
                 <p style={{color:"#cacac8",fontSize:"20px"}}>I love building intelligent systems that enhance user experience and solve complex problems. </p>
                 <p>Let's innovate!</p>
 
-                <Link to="/ml-dev" className="view-link"><p>View my projects</p></Link>
+                
+                <Link to="/ml-dev" className="view-link">projects |</Link>
+                <Link to="https://drive.google.com/file/d/1YzpDTLOv2XCcsNxJKDDVjXWKW9RfHqfg/view?usp=sharing" className="view-link"> CV </Link>
             </section >
         </>
     )

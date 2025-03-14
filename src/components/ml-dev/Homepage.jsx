@@ -8,11 +8,6 @@ import arrow from '../../assets/down.png';
 
 export default function Homepage() {
 
-    const name = "ML";
-    const nameB = "Engineer";
-    const [showName, setShowName] = useState([]);
-    const [showNameB, setShowNameB] = useState([]);
-
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 700px)' })
     const isBigScreen = useMediaQuery({ query: '(min-width: 1024px)' })
     const isSmallScreen = useMediaQuery({ maxWidth: 500 });
@@ -22,9 +17,8 @@ export default function Homepage() {
 
             {isBigScreen &&
                 <>
-                    {/* <p>I'm a</p> */}
-                    <h1 className="jobname">
-                        My name is Sandra Skaria</h1>
+                    <h1 className="jobname">Projects</h1>
+                        <h3>some of the major projects i've done</h3>
 
                 </>
             }
@@ -32,7 +26,7 @@ export default function Homepage() {
             {!isBigScreen &&
 
                 <>
-                    <h1 className="jobname"> A good web developer and a better Machine Learning engineer  </h1>
+                    <h1 className="jobname"> A good Web Developer and a better Machine Learning engineer  </h1>
                     <div className="scroll-down">
                         <img src={arrow} alt="Scroll down" />
                     </div>
