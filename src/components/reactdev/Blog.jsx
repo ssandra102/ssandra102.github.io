@@ -1,8 +1,8 @@
 import { FaMedium } from 'react-icons/fa';
-import Header from './Header.jsx';
-import blogsData from './Card/data/blogsData.js';
+import Header from '../common/Header.jsx';
+import blogsData from '../Card/data/blogsData.js';
 import { useState } from 'react';
-import './styles/blog.css';
+import '../styles/blog.css';
 
 export default function Blog() {
     return (

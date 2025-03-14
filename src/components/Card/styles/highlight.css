@@ -1,0 +1,65 @@
+.card {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 50px;
+    ;
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  .highlights {
+    text-align: left;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .highlights ul {
+    padding-left: 20px;
+  }
+  
+  .tags {
+    font-size: 12px;
+    color: #bbb;
+  }
+  
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+    
+  .github {
+    /* background-color: #1f6feb; */
+    color: white;
+    
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

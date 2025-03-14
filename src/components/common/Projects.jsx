@@ -1,11 +1,11 @@
 
-import Header from "./Header"
-import Card from './Card/Card.jsx'
-import './styles/content.css'
+import Header from "./Header.jsx"
+import Card from '../Card/Card.jsx'
+import '../styles/content.css'
 
-export default function Projects() {
+export default function Projects(props) {
 
-    const cardIds = [1, 2, 3, 4, 5, 6];
+    const cardIds = props;
 
     return (
 
@@ -14,7 +14,7 @@ export default function Projects() {
                 <Header />
             </div>
             <section>
-                <h1 id="projects">Projects</h1>
+                <h1 id="projects-header">Projects</h1>
                 <div className="p-10 text-white">
                     <h4 className="header-style"> (click on code to view Github repo)</h4>
 
@@ -22,7 +22,7 @@ export default function Projects() {
             </section>
             <section className='card-details-parent'>
                 {cardIds.map(id => (
-                    <Card key={id} id={id} />
+                    <Card key={id} id={id} page={"projects"}/>
                 ))}
             </section>
         </>

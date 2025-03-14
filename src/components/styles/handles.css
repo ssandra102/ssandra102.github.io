@@ -4,9 +4,12 @@
 } */
 
 .social-container {
-    /* background: #eee; */
-    padding: 25px;
-  }
+  position: fixed;
+  bottom: 0;
+  padding-left: 20px;
+  padding-bottom: 45px;
+  left: 0;
+}
   
   a.social {
     margin: 0 0.5rem;
@@ -53,3 +56,29 @@
     color: #333;
   }
 
+
+  .tooltip {
+    margin-top: 5px; /* Space between icon and text */
+    background-color: #333;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media  (max-width: 768px) {
+  .social-container {
+    padding: 40px;
+    position: relative;
+  }
+  
+}

@@ -1,5 +1,5 @@
 
-import './styles/Content.css'
+import '../styles/Content.css'
 
 export default function About() {
     return (

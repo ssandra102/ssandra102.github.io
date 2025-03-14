@@ -7,7 +7,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import './styles/handles.css';
+import '../styles/handles.css';
 
 
 export default function SocialLinks() {
@@ -35,9 +35,9 @@ export default function SocialLinks() {
       </a>
 
       {/* Email */}
-      <a className="envelop social" href="mailto:sandra10skaria@gmail.com">
+      {/* <a className="envelop social" href="mailto:sandra10skaria@gmail.com">
         <FontAwesomeIcon icon={faEnvelope} className="text-gray-700 hover:text-gray-900 text-3xl transition-all" />
-      </a>
+      </a> */}
     </div>
   );
 }

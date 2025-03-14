@@ -1,21 +1,75 @@
 /* Header.css */
 nav {
-    /* background-color: #ffffff; */
+
+    position: fixed;
+    /* Keeps it fixed on the screen */
+    top: 0;
     padding: 15px;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid #ddd; 
+
 }
 
-nav a {
-    color: #888787; /* Dark grey text for readability */
-    text-decoration: none;
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    /* Keeps name on the left, link on the right */
+    align-items: center;
+    width: 100%;
+}
+
+.nav-left {
+
+    left: 0;
+    font-size: 2rem;
+    /* Adjust size as needed */
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-left a {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-left a:hover {
+    color: #33475d;
+    /* Subtle blue color on hover */
+}
+
+.smallscreen-nav {
+    position: absolute;
+}
+
+.nav-right {
+    right: 0;
+    font-size: 1rem;
     font-size: 16px;
     font-weight: 600;
+    letter-spacing: 2px;
     margin-right: 20px;
     transition: color 0.3s ease-in-out;
+    border-bottom: 1px solid #ddd;
 }
 
-nav a:hover {
-    color: #537497; /* Subtle blue color on hover */
+.nav-right a {
+    color: #cac722;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-right a:hover {
+    color: #838117;
+    /* Subtle blue color on hover */
 }

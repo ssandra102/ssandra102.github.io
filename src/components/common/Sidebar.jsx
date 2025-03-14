@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Sidebar.css"; // Import the CSS file
+import "../styles/Sidebar.css"; // Import the CSS file
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Sliders } from "lucide-react";
 import { MdCheckBox } from "react-icons/md";

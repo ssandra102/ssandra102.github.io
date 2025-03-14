@@ -1,75 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dorsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Dorsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Fondamento:ital@0;1&display=swap');
+
 
 .content-container {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    /* Align items properly */
     gap: 0px;
-    /* Remove unnecessary space */
     width: 100%;
-    height: 100vh;
-    /* Ensure full height */
-    margin-top: 0;
+    justify-content: space-between;
+    padding: 50px; */
+
+    display: grid;
+    height: 80vh;
+    padding: 10px;
+
 }
 
 .about-image-arrow {
     flex: 2;
-    /* Image covers two-thirds */
     background-size: cover;
     background-position: right;
-    /* Align image to right */
     background-repeat: no-repeat;
     height: 100%;
 }
 
 #showname {
-    margin: 80px;
-    flex: 1;
-    /* Takes one-third of space */
-    text-align: right;
-    padding-left: 10px;
-}
-
-.about-container {
-    margin: 80px;
-    flex: 1;
-    /* Takes one-third of space */
+    /* margin: 20px; */
     text-align: left;
     padding-left: 10px;
 }
 
+.about-container {   
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    width: 100%;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.tablet-about-container {
+    max-width: 450px;
+    max-height: fit-content;
+}
+
+.mini-about-container {
+    max-width: 250px;
+    max-height: fit-content;
+}
+
 #project {
-    /* margin-top: 500px; */
-    /* border: 6px double green; */
     font-size: 3rem;
-    /* background-color: lightgreen; */
     font-weight: 800;
     text-align: center;
-    /* padding: 80px; */
 }
 
 
 #blog {
-    /* margin-top: 1000px; */
-    /* border: 6px double green; */
     font-size: 3rem;
-    /* background-color: lightgreen; */
     font-weight: 800;
     text-align: center;
     padding: 40px;
 }
 
 .card-details-parent {
-    max-width: 1200px;
+    /* left: 0; */
+    max-width: 400px;
     display: flex;
     padding-top: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
-    align-items: center;
-    justify-content: right;
+    justify-content: center;
 }
 
 .content {
@@ -78,8 +83,10 @@
     align-items: center;
 }
 
+/* .about-section {
+} */
 
-/* Styling the box around the "focus" text */
+
 .focus-box {
     display: inline-block;
     position: relative;
@@ -88,13 +95,13 @@
 
 .focus-text {
     font-size: 3rem;
-    letter-spacing: 2px;
-    font-family: "Dorsa", sans-serif;
+    /* letter-spacing: 1px; */
+    font-family: "Bigshot One", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.focus-text.yellow {
+.focus-text.red {
     color: #D56062;
 }
 
@@ -102,12 +109,12 @@
     color: #387780;
 }
 
-.focus-text.blue {
-    color: #ffd670;
+.focus-text.grey {
+    color: #cacac8;
 }
 
-.focus-text.red {
-    color: #83c5be;
+.focus-text.white {
+    color: #ffffff;
 }
 
 ul {
@@ -118,4 +125,83 @@ ul {
 ul li {
     /* margin-bottom: 8px; */
     font-size: 1rem;
+}
+
+p {
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.jobname {
+    font-size: 3rem;
+    letter-spacing: 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #2a5960;
+}
+
+
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 60px; 
+    /* background-color: #b23333; */
+  }
+  
+  .vertical-text {
+    /* position: absolute; */
+    left: 30px;
+    /* bottom: 150px; */
+    font-size: 60px;
+    color: rgb(86, 84, 84);
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+
+  @media (max-width: 768px) {
+    .vertical-text {
+        text-transform: lowercase;
+        top: 0;
+        left: 0;
+        font-size: 40px;
+        transform: rotate(270deg);
+        opacity: 0;
+    }
+}
+  
+
+
+/* App.css */
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+
+.highlight-cards {
+    justify-self: center;
+    /* max-width: 400px; */
+    padding: 50px;
+}
+
+
+.scroll-down {
+    position: relative;
+    padding: 30px;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
 }
